@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE543FAE2BE97151006DB260 /* WorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FAD2BE97151006DB260 /* WorkView.swift */; };
+		EE543FB02BE9716C006DB260 /* WorkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FAF2BE9716C006DB260 /* WorkData.swift */; };
+		EE543FB32BE97AD4006DB260 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE543FB22BE97AD4006DB260 /* music.mp3 */; };
+		EE543FB52BE97AE5006DB260 /* tap_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE543FB42BE97AE5006DB260 /* tap_sound.mp3 */; };
+		EE543FB72BE97AF6006DB260 /* upgrade_progress_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE543FB62BE97AF6006DB260 /* upgrade_progress_sound.mp3 */; };
+		EE543FB92BE980EA006DB260 /* InfoGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FB82BE980EA006DB260 /* InfoGameView.swift */; };
 		EE56DF1C2BE90B69002B9C66 /* AviatorClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF1B2BE90B69002B9C66 /* AviatorClickerApp.swift */; };
 		EE56DF1E2BE90B69002B9C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF1D2BE90B69002B9C66 /* ContentView.swift */; };
 		EE56DF202BE90B6C002B9C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF1F2BE90B6C002B9C66 /* Assets.xcassets */; };
 		EE56DF232BE90B6C002B9C66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF222BE90B6C002B9C66 /* Preview Assets.xcassets */; };
+		EE56DF342BE90BF0002B9C66 /* FirstGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF332BE90BEF002B9C66 /* FirstGameScreen.swift */; };
+		EE56DF362BE90D79002B9C66 /* HoltwoodOneSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF352BE90D79002B9C66 /* HoltwoodOneSC-Regular.ttf */; };
+		EE56DF392BE91751002B9C66 /* AirplaneGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF382BE91751002B9C66 /* AirplaneGameView.swift */; };
+		EE56DF3B2BE91773002B9C66 /* MapTerainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF3A2BE91773002B9C66 /* MapTerainData.swift */; };
+		EE56DF3D2BE93E83002B9C66 /* UpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF3C2BE93E83002B9C66 /* UpgradesView.swift */; };
+		EE56DF3F2BE93FB8002B9C66 /* UpgradesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF3E2BE93FB8002B9C66 /* UpgradesData.swift */; };
+		EE56DF412BE93FDE002B9C66 /* UpgradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF402BE93FDE002B9C66 /* UpgradeItem.swift */; };
+		EE56DF432BE9416B002B9C66 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF422BE9416B002B9C66 /* PlayerData.swift */; };
+		EE56DF452BE95D6C002B9C66 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF442BE95D6C002B9C66 /* ShopView.swift */; };
+		EE56DF482BE95ED1002B9C66 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF472BE95ED1002B9C66 /* ShopData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE543FAD2BE97151006DB260 /* WorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkView.swift; sourceTree = "<group>"; };
+		EE543FAF2BE9716C006DB260 /* WorkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkData.swift; sourceTree = "<group>"; };
+		EE543FB22BE97AD4006DB260 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		EE543FB42BE97AE5006DB260 /* tap_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap_sound.mp3; sourceTree = "<group>"; };
+		EE543FB62BE97AF6006DB260 /* upgrade_progress_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = upgrade_progress_sound.mp3; sourceTree = "<group>"; };
+		EE543FB82BE980EA006DB260 /* InfoGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoGameView.swift; sourceTree = "<group>"; };
 		EE56DF182BE90B69002B9C66 /* AviatorClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviatorClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE56DF1B2BE90B69002B9C66 /* AviatorClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorClickerApp.swift; sourceTree = "<group>"; };
 		EE56DF1D2BE90B69002B9C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE56DF1F2BE90B6C002B9C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE56DF222BE90B6C002B9C66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE56DF332BE90BEF002B9C66 /* FirstGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameScreen.swift; sourceTree = "<group>"; };
+		EE56DF352BE90D79002B9C66 /* HoltwoodOneSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoltwoodOneSC-Regular.ttf"; sourceTree = "<group>"; };
+		EE56DF372BE90D99002B9C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE56DF382BE91751002B9C66 /* AirplaneGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneGameView.swift; sourceTree = "<group>"; };
+		EE56DF3A2BE91773002B9C66 /* MapTerainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTerainData.swift; sourceTree = "<group>"; };
+		EE56DF3C2BE93E83002B9C66 /* UpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesView.swift; sourceTree = "<group>"; };
+		EE56DF3E2BE93FB8002B9C66 /* UpgradesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesData.swift; sourceTree = "<group>"; };
+		EE56DF402BE93FDE002B9C66 /* UpgradeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeItem.swift; sourceTree = "<group>"; };
+		EE56DF422BE9416B002B9C66 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		EE56DF442BE95D6C002B9C66 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		EE56DF472BE95ED1002B9C66 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE543FB12BE97ABB006DB260 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FB22BE97AD4006DB260 /* music.mp3 */,
+				EE543FB42BE97AE5006DB260 /* tap_sound.mp3 */,
+				EE543FB62BE97AF6006DB260 /* upgrade_progress_sound.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		EE56DF0F2BE90B69002B9C66 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +94,15 @@
 		EE56DF1A2BE90B69002B9C66 /* AviatorClicker */ = {
 			isa = PBXGroup;
 			children = (
+				EE543FB12BE97ABB006DB260 /* Audio */,
+				EE56DF372BE90D99002B9C66 /* Info.plist */,
+				EE56DF2B2BE90B8C002B9C66 /* Data */,
+				EE56DF2A2BE90B84002B9C66 /* AppViews */,
+				EE56DF292BE90B7E002B9C66 /* ClickerGame */,
 				EE56DF1B2BE90B69002B9C66 /* AviatorClickerApp.swift */,
 				EE56DF1D2BE90B69002B9C66 /* ContentView.swift */,
 				EE56DF1F2BE90B6C002B9C66 /* Assets.xcassets */,
+				EE56DF352BE90D79002B9C66 /* HoltwoodOneSC-Regular.ttf */,
 				EE56DF212BE90B6C002B9C66 /* Preview Content */,
 			);
 			path = AviatorClicker;
@@ -65,6 +114,95 @@
 				EE56DF222BE90B6C002B9C66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE56DF292BE90B7E002B9C66 /* ClickerGame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClickerGame;
+			sourceTree = "<group>";
+		};
+		EE56DF2A2BE90B84002B9C66 /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF322BE90BCB002B9C66 /* Info */,
+				EE56DF312BE90BC2002B9C66 /* Store */,
+				EE56DF302BE90BBA002B9C66 /* Work */,
+				EE56DF2F2BE90BB1002B9C66 /* upgrades */,
+				EE56DF2E2BE90BA6002B9C66 /* AirplaneGame */,
+				EE56DF2D2BE90B9B002B9C66 /* FirstGameScreen */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		EE56DF2B2BE90B8C002B9C66 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF2C2BE90B90002B9C66 /* Models */,
+				EE56DF3A2BE91773002B9C66 /* MapTerainData.swift */,
+				EE56DF3E2BE93FB8002B9C66 /* UpgradesData.swift */,
+				EE56DF422BE9416B002B9C66 /* PlayerData.swift */,
+				EE56DF472BE95ED1002B9C66 /* ShopData.swift */,
+				EE543FAF2BE9716C006DB260 /* WorkData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE56DF2C2BE90B90002B9C66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF402BE93FDE002B9C66 /* UpgradeItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE56DF2D2BE90B9B002B9C66 /* FirstGameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF332BE90BEF002B9C66 /* FirstGameScreen.swift */,
+			);
+			path = FirstGameScreen;
+			sourceTree = "<group>";
+		};
+		EE56DF2E2BE90BA6002B9C66 /* AirplaneGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF382BE91751002B9C66 /* AirplaneGameView.swift */,
+			);
+			path = AirplaneGame;
+			sourceTree = "<group>";
+		};
+		EE56DF2F2BE90BB1002B9C66 /* upgrades */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF3C2BE93E83002B9C66 /* UpgradesView.swift */,
+			);
+			path = upgrades;
+			sourceTree = "<group>";
+		};
+		EE56DF302BE90BBA002B9C66 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FAD2BE97151006DB260 /* WorkView.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		EE56DF312BE90BC2002B9C66 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF442BE95D6C002B9C66 /* ShopView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EE56DF322BE90BCB002B9C66 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FB82BE980EA006DB260 /* InfoGameView.swift */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE543FB32BE97AD4006DB260 /* music.mp3 in Resources */,
+				EE56DF362BE90D79002B9C66 /* HoltwoodOneSC-Regular.ttf in Resources */,
 				EE56DF232BE90B6C002B9C66 /* Preview Assets.xcassets in Resources */,
+				EE543FB52BE97AE5006DB260 /* tap_sound.mp3 in Resources */,
+				EE543FB72BE97AF6006DB260 /* upgrade_progress_sound.mp3 in Resources */,
 				EE56DF202BE90B6C002B9C66 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +280,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE56DF1E2BE90B69002B9C66 /* ContentView.swift in Sources */,
+				EE56DF3B2BE91773002B9C66 /* MapTerainData.swift in Sources */,
+				EE56DF3F2BE93FB8002B9C66 /* UpgradesData.swift in Sources */,
+				EE56DF412BE93FDE002B9C66 /* UpgradeItem.swift in Sources */,
+				EE56DF342BE90BF0002B9C66 /* FirstGameScreen.swift in Sources */,
+				EE56DF392BE91751002B9C66 /* AirplaneGameView.swift in Sources */,
+				EE56DF432BE9416B002B9C66 /* PlayerData.swift in Sources */,
+				EE543FAE2BE97151006DB260 /* WorkView.swift in Sources */,
+				EE543FB92BE980EA006DB260 /* InfoGameView.swift in Sources */,
 				EE56DF1C2BE90B69002B9C66 /* AviatorClickerApp.swift in Sources */,
+				EE56DF482BE95ED1002B9C66 /* ShopData.swift in Sources */,
+				EE543FB02BE9716C006DB260 /* WorkData.swift in Sources */,
+				EE56DF452BE95D6C002B9C66 /* ShopView.swift in Sources */,
+				EE56DF3D2BE93E83002B9C66 /* UpgradesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +429,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AviatorClicker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +443,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamebig.AviatorClicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +463,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AviatorClicker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +477,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamebig.AviatorClicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
