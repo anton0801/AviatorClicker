@@ -26,7 +26,8 @@ struct FirstGameScreen: View {
                 
                 HStack {
                     Spacer()
-                    NavigationLink(destination: InfoGameView()) {
+                    NavigationLink(destination: InfoGameView()
+                        .navigationBarBackButtonHidden(true)) {
                         Image("info_btn")
                             .resizable()
                             .frame(width: 40, height: 40)
